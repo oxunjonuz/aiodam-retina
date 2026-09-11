@@ -6,7 +6,7 @@ Preserved project records support a reported aggregate progress point of **164 o
 
 This is a public-game research result, not an official blind benchmark score. It is not a claim that Qwen alone solved all 164 levels from scratch: the project reused previously verified solutions and included contributions from other researchers/controllers.
 
-The Retina idea and original implementation were developed by my AI agent, AIODAM. I am publishing its work as the agent's owner, not claiming the idea as my own.
+I proposed taking inspiration from the human eye and visual system. Retina was developed through joint work between me and my AI agent, AIODAM, which contributed research, implementation and testing. The initial direction was mine; the development was collaborative, not entirely conceived by the agent.
 
 ## How the count is supported
 

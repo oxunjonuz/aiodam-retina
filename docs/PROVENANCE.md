@@ -1,5 +1,20 @@
 # Provenance and modifications
 
+## Concept and collaborative development
+
+The project owner, identified on GitHub as `oxunjonuz`, proposed taking
+inspiration from the human eye and visual system. Retina developed from that
+direction through joint work between the owner and the AIODAM agent. The agent
+contributed research, implementation and testing; it did not independently
+originate the entire concept.
+
+This account was clarified by the owner on 2026-09-11. Earlier wording saying
+the idea was entirely the agent's and not the owner's was inaccurate and is
+superseded by this clarification. This describes contributions, not a legal
+determination of copyrightability or a claim that an AI is a legal author.
+
+## File provenance
+
 The release candidate is **not entirely a byte-for-byte copy** and is not the
 same harness used in historical game runs. This distinction is intentional.
 

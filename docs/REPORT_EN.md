@@ -3,6 +3,13 @@
 Prepared 2026-09-11 from local source and preserved artifacts. No new game score
 was produced during release preparation.
 
+## Origin and development
+
+The project owner proposed taking inspiration from the human eye and visual
+system. Retina grew from that idea through joint work with the AIODAM agent,
+which contributed research, implementation and testing. The concept was not
+entirely originated by the agent. See [provenance](PROVENANCE.md).
+
 ## Purpose and four channels
 
 A text model needs more than a colour inventory: it needs positions, geometry,
