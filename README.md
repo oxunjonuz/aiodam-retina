@@ -1,3 +1,5 @@
+> **Origin and authorship:** The Retina idea and original implementation were developed by my AI agent, AIODAM, during its ARC-AGI-3 research. This was my agent's idea, not mine. I am sharing its work as the agent's owner. Release packaging and subsequent changes are documented separately in the provenance notes.
+
 # AIODAM Retina
 
 Spatial perception, temporal change measurements and action-observation history
