@@ -5,8 +5,13 @@
 Spatial perception, temporal change measurements and action-observation history
 for language-model agents working with discrete 64x64 colour grids.
 
-**Local release candidate. Not published. License selection and fixture
-redistribution review are pending.** [Russian README](README_RU.md).
+**Source-available under [PolyForm Noncommercial 1.0.0](LICENSE).**
+Permitted noncommercial use is free. Commercial use outside that license's
+permissions requires a separate paid written agreement before use.
+Contact **[oxunjonub@gmail.com](mailto:oxunjonub@gmail.com)**.
+See [commercial licensing](COMMERCIAL_LICENSE.md) and [scope/exclusions](NOTICE.md).
+Third-party game-frame redistribution review remains pending.
+[Russian README](README_RU.md).
 
 English is the primary documentation language. Start with this README and
 [the English report](docs/REPORT_EN.md). Russian translations are supplementary.

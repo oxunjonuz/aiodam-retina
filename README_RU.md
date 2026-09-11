@@ -1,11 +1,17 @@
-> **Origin and authorship:** The Retina idea and original implementation were developed by my AI agent, AIODAM, during its ARC-AGI-3 research. This was my agent's idea, not mine. I am sharing its work as the agent's owner. Release packaging and subsequent changes are documented separately in the provenance notes.
+> **Идея и исходная реализация:** Retina разработал мой AI-агент AIODAM во время исследований ARC-AGI-3. Это идея моего агента, а не моя. Я публикую его работу как владелец агента. Подготовка релиза и последующие изменения описаны отдельно в документации о происхождении.
 
 # AIODAM Retina
 
 Переносимый комплект пространственного восприятия, событий движения и истории
 «действие → наблюдаемый результат» для LLM, работающих с дискретными сетками 64×64.
 
-**Это локальный кандидат для GitHub, а не уже опубликованный продукт.**
+**Исходный код доступен по [PolyForm Noncommercial 1.0.0](LICENSE).**
+Разрешённое этой лицензией некоммерческое использование бесплатно.
+Для коммерческого использования вне её разрешений необходимо заранее
+заключить отдельное платное письменное соглашение.
+Контакт: **[oxunjonub@gmail.com](mailto:oxunjonub@gmail.com)**.
+[Коммерческая лицензия](COMMERCIAL_LICENSE.md), [область действия](NOTICE.md).
+Права на распространение сторонних игровых кадров ещё требуют проверки.
 
 Основной язык репозитория — английский: [README](README.md) и
 [основной отчёт](docs/REPORT_EN.md). Этот файл — дополнительный перевод.

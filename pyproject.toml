@@ -6,6 +6,8 @@ build-backend = "setuptools.build_meta"
 name = "aiodam-retina-preview"
 version = "0.1.0"
 description = "Public-grid spatial and temporal perception; local release candidate"
+license = {file = "LICENSE"}
+maintainers = [{name = "oxunjonuz", email = "oxunjonub@gmail.com"}]
 requires-python = ">=3.10"
 dependencies = ["numpy>=1.24"]
 
