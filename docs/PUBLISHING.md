@@ -16,7 +16,7 @@ English is the primary language: `README.md` and `docs/REPORT_EN.md`.
    while you review the license and fixture permissions; choose visibility
    deliberately because a public repository exposes its uploaded contents.
 3. Leave automatic README, license and gitignore generation off: this folder
-   already contains its README and gitignore, and the license is undecided.
+   already contains its README, gitignore and selected `LICENSE`.
 4. Create the repository. Select **uploading an existing file** on its empty
    page, or **Add file > Upload files** if it already contains files.
 5. Unzip `retina-public-candidate-20260911.zip` locally. Upload the CONTENTS of
@@ -36,8 +36,9 @@ file. This candidate fits within those limits. See the official
 
 ## Before making it public
 
-Select a code license after confirming the applicable rights. For example,
-MIT is permissive, but this draft does not choose it on the owner's behalf.
+The owner selected PolyForm Noncommercial 1.0.0 and a separate paid commercial
+licensing route. Preserve `LICENSE`, `NOTICE.md` and `COMMERCIAL_LICENSE.md`.
+Confirm the applicable rights and contributor obligations before publication.
 Verify redistribution permission for the included ARC game frames separately.
 No GitHub account token belongs in the code or documentation.
 

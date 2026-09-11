@@ -119,5 +119,7 @@ The candidate contains the four perception/history channels, a shared numeric
 packet, serializers, tests, example code and selected public frame evidence.
 It excludes AIODAM's private agent runtime, memory, credentials, weights,
 training corpora, search solvers and full winning routes. Rights to redistribute
-fixtures and the code license must be settled before publication. No GitHub
-repository was created or uploaded during this task.
+fixtures must be settled before public publication. The code is offered under
+PolyForm Noncommercial 1.0.0, with a separate paid commercial licensing route;
+see `../LICENSE`, `../NOTICE.md` and `../COMMERCIAL_LICENSE.md`.
+The repository is staged at `oxunjonuz/aiodam-retina`.

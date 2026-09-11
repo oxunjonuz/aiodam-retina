@@ -15,8 +15,9 @@ This folder is a local candidate. No publishing credentials are required here.
 
 ## Owner decisions / remaining checks
 
-- Choose the repository name and code license after confirming ownership and
-  any contributor obligations. No MIT/Apache or other grant has been invented.
+- Owner selected PolyForm Noncommercial 1.0.0 plus separately negotiated paid
+  commercial agreements. Confirm applicable rights and contributor obligations;
+  license selection is not proof of ownership of every included element.
 - Verify redistribution permission for the ten public game frames and derived
   comparison images. Publicly viewable does not automatically mean relicensable.
   If permission is unavailable, release code plus synthetic fixtures and provide
@@ -29,5 +30,5 @@ This folder is a local candidate. No publishing credentials are required here.
   platforms. Current local tests are not a CI matrix or a full security audit.
 - A matched VLM/Retina evaluation is optional future research, not an existing
   claim of this release.
-- Publish only after explicit owner approval. This preparation did not create
-  a GitHub repository, make a commit or send any files externally.
+- Repository staging is at `oxunjonuz/aiodam-retina`. Public visibility requires
+  explicit owner approval and resolution of the game-asset rights review above.
