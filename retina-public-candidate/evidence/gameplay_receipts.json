@@ -1,0 +1,20 @@
+{
+  "status": "historical documentary evidence; not fresh game replay",
+  "controller_sc25": {
+    "source_name": "MANUAL_REPORT.md",
+    "source_sha256": "7510468be1f93d2f85781ec8c2f385a4e3d2261d53510070a9f2fb78bba64e99",
+    "actions": 67,
+    "level_wins": 2,
+    "reported_replay": "67/67 PASS",
+    "inputs": "public frames, available actions, Retina packets"
+  },
+  "qwen_cli": {
+    "source_name": "PROGRESS_LEDGER.md",
+    "source_sha256": "b915ea57307bf3847e69f62072110b1dbde17501ec4ef975c3e93b62f2b0662b",
+    "last_recorded_union": 159,
+    "total_levels": 183,
+    "classification": "evaluator-only teacher/oracle holdout; not blind capability",
+    "handoff_integrity_reported": true,
+    "previously_reported_164": "not freshly reconciled in this candidate"
+  }
+}

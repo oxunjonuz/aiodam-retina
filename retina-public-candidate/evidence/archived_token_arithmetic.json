@@ -1,0 +1,13 @@
+{
+  "method": "arithmetic recomputation from historical stored token counts; not a new tokenizer run",
+  "means": {
+    "raw_two_frame_grid": 24619.0,
+    "retina_packet_only": 440.8,
+    "retina_plus_post_action_crop": 2202.4
+  },
+  "reduction_percent": {
+    "raw_two_frame_grid": 0.0,
+    "retina_packet_only": 98.20951297778139,
+    "retina_plus_post_action_crop": 91.05406393435965
+  }
+}

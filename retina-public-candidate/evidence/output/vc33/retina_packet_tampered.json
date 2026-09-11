@@ -1,0 +1,164 @@
+{
+  "ambient_px": 471,
+  "effective_changed": 2272,
+  "events_head": [
+    {
+      "area": 1200,
+      "bbox": [
+        20,
+        1,
+        63,
+        63
+      ],
+      "centroid": [
+        57.2,
+        35.3
+      ],
+      "colour": 3,
+      "delta": [
+        36.2,
+        11.9
+      ],
+      "type": "move"
+    },
+    {
+      "area": 744,
+      "bbox": [
+        0,
+        1,
+        39,
+        19
+      ],
+      "centroid": [
+        19.9,
+        9.8
+      ],
+      "colour": 0,
+      "delta": [
+        -34.6,
+        -6.0
+      ],
+      "type": "move"
+    },
+    {
+      "area": 624,
+      "bbox": [
+        44,
+        32,
+        63,
+        63
+      ],
+      "centroid": [
+        53.3,
+        47.9
+      ],
+      "colour": 0,
+      "delta": [
+        0.0,
+        0.0
+      ],
+      "type": "disappear"
+    },
+    {
+      "area": 224,
+      "bbox": [
+        0,
+        20,
+        55,
+        23
+      ],
+      "centroid": [
+        27.5,
+        21.5
+      ],
+      "colour": 5,
+      "delta": [
+        0.0,
+        0.0
+      ],
+      "type": "appear"
+    },
+    {
+      "area": 160,
+      "bbox": [
+        0,
+        24,
+        11,
+        39
+      ],
+      "centroid": [
+        6.3,
+        31.5
+      ],
+      "colour": 0,
+      "delta": [
+        0.0,
+        0.0
+      ],
+      "type": "appear"
+    },
+    {
+      "area": 144,
+      "bbox": [
+        0,
+        44,
+        7,
+        63
+      ],
+      "centroid": [
+        3.7,
+        54.4
+      ],
+      "colour": 0,
+      "delta": [
+        0.0,
+        0.0
+      ],
+      "type": "appear"
+    }
+  ],
+  "global": {
+    "appearing_colours": [
+      0,
+      5,
+      7,
+      9,
+      14
+    ],
+    "changed_area": 2743,
+    "dH": [
+      20,
+      0,
+      0,
+      -276,
+      -3,
+      224,
+      0,
+      3,
+      0,
+      32,
+      0,
+      -20,
+      0,
+      0,
+      20,
+      0
+    ],
+    "dH1": 598,
+    "disappearing_colours": [
+      3,
+      4,
+      11
+    ]
+  },
+  "is_pan": false,
+  "off_px": 2743,
+  "on_px": 2743,
+  "pan_direction": null,
+  "step": 3,
+  "visible_effect": "global",
+  "window_effective": [
+    2272,
+    16
+  ]
+}

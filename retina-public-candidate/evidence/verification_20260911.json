@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-11",
+  "unit_tests": 24,
+  "unit_tests_passed": 24,
+  "historical_reverification": {
+    "canonical_cases_verified": 5,
+    "failures": [],
+    "tamper_cases_rejected": 5,
+    "verdict": "PASS"
+  },
+  "source_entries_verified": 39,
+  "extracted_function_AST_parity": "PASS",
+  "example": {
+    "changed_pixels": 6,
+    "saved_transitions": 1,
+    "restore": "PASS"
+  },
+  "installed_copy": "INSTALLED_IMPORT_AND_NUMERIC_SMOKE_PASS",
+  "sensitive_marker_scan_findings": [],
+  "scan_scope": "known path/credential markers, not a comprehensive security or rights audit",
+  "historical_token_counts": "stored counts recomputed; tokenizer not installed in test runtime",
+  "fresh_game_replay": false,
+  "live_agent_changed": false,
+  "published": false
+}

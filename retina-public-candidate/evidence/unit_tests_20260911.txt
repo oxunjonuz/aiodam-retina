@@ -1,0 +1,29 @@
+test_all_colours_preserved (test_retina.RetinaTests.test_all_colours_preserved) ... ok
+test_bbox_yxyx (test_retina.RetinaTests.test_bbox_yxyx) ... ok
+test_click_xy_planes (test_retina.RetinaTests.test_click_xy_planes) ... ok
+test_colour_replacement_has_on_and_off (test_retina.RetinaTests.test_colour_replacement_has_on_and_off) ... ok
+test_coordinates (test_retina.RetinaTests.test_coordinates) ... ok
+test_event_displacement_is_not_object_motion (test_retina.RetinaTests.test_event_displacement_is_not_object_motion) ... ok
+test_first_frame_has_no_fabricated_transition (test_retina.RetinaTests.test_first_frame_has_no_fabricated_transition) ... ok
+test_full_history_and_restore (test_retina.RetinaTests.test_full_history_and_restore) ... ok
+test_hex_roundtrip (test_retina.RetinaTests.test_hex_roundtrip) ... ok
+test_histogram_cannot_detect_translation (test_retina.RetinaTests.test_histogram_cannot_detect_translation) ... ok
+test_illegal_action_does_not_mutate (test_retina.RetinaTests.test_illegal_action_does_not_mutate) ... ok
+test_imported_serializer (test_retina.RetinaTests.test_imported_serializer) ... ok
+test_invalid_clicks (test_retina.RetinaTests.test_invalid_clicks) ... ok
+test_invalid_frames (test_retina.RetinaTests.test_invalid_frames) ... ok
+test_no_causal_claim (test_retina.RetinaTests.test_no_causal_claim) ... ok
+test_numeric_consumer_side_channels (test_retina.RetinaTests.test_numeric_consumer_side_channels) ... ok
+test_observed_no_change_click (test_retina.RetinaTests.test_observed_no_change_click) ... ok
+test_returned_record_is_copy (test_retina.RetinaTests.test_returned_record_is_copy) ... ok
+test_scene_guard (test_retina.RetinaTests.test_scene_guard) ... ok
+test_server_entities_reach_prompt (test_retina.RetinaTests.test_server_entities_reach_prompt) ... ok
+test_server_entity_xy_and_tamper (test_retina.RetinaTests.test_server_entity_xy_and_tamper) ... ok
+test_short_history_not_ambient (test_retina.RetinaTests.test_short_history_not_ambient) ... ok
+test_tampered_record_rejected (test_retina.RetinaTests.test_tampered_record_rejected) ... ok
+test_unchanged (test_retina.RetinaTests.test_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 1.212s
+
+OK

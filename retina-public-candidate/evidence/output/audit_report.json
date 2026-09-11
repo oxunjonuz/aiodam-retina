@@ -1,0 +1,1576 @@
+{
+  "cases": [
+    {
+      "case": "tu93",
+      "checks": {
+        "changed_area_exact": true,
+        "dH1_exact": true,
+        "dH_exact": true,
+        "deterministic_repeat": true,
+        "event_bboxes_in_frame": true,
+        "event_centroids_in_bbox": true,
+        "off_px_exact": true,
+        "on_px_exact": true,
+        "visible_effect_consistent": true
+      },
+      "checks_passed": true,
+      "diagnostic_crop": {
+        "bbox": [
+          29,
+          27,
+          52,
+          50
+        ],
+        "frame_fraction": 0.140625,
+        "pixels": 576,
+        "policy_leak_warning": "post-action crop cannot label the action that produced it"
+      },
+      "frame_sha256": {
+        "current_npy": "4e3c005e443aa4563c1f00eec0c605d7c93bb357d07786aff34464c4024ce781",
+        "previous_npy": "3d6d900905fa9249ea4b7cea66a01ff585f556e8f9bad4a4241bdc763777886f"
+      },
+      "raw_change": {
+        "changed_area": 20,
+        "dH": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "dH1": 4,
+        "off_px": 20,
+        "on_px": 20
+      },
+      "representation_sizes": {
+        "raw_two_frame_grid": {
+          "characters": 24746,
+          "qwen2_5_tokenizer_tokens": 24619,
+          "utf8_bytes": 24746,
+          "whitespace_tokens_proxy": 8216
+        },
+        "retina_packet_only": {
+          "characters": 1066,
+          "qwen2_5_tokenizer_tokens": 443,
+          "utf8_bytes": 1066,
+          "whitespace_tokens_proxy": 21
+        },
+        "retina_plus_post_action_crop": {
+          "characters": 2856,
+          "qwen2_5_tokenizer_tokens": 2205,
+          "utf8_bytes": 2856,
+          "whitespace_tokens_proxy": 602
+        }
+      },
+      "representative_transition_index": 1,
+      "retina_packet": {
+        "ambient_px": 9,
+        "effective_changed": 11,
+        "events_head": [
+          {
+            "area": 9,
+            "bbox": [
+              21,
+              15,
+              23,
+              17
+            ],
+            "centroid": [
+              22.0,
+              16.0
+            ],
+            "colour": 0,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "appear"
+          },
+          {
+            "area": 9,
+            "bbox": [
+              21,
+              21,
+              23,
+              23
+            ],
+            "centroid": [
+              22.0,
+              22.0
+            ],
+            "colour": 0,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "disappear"
+          },
+          {
+            "area": 8,
+            "bbox": [
+              21,
+              21,
+              23,
+              23
+            ],
+            "centroid": [
+              22.0,
+              21.9
+            ],
+            "colour": 9,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "appear"
+          },
+          {
+            "area": 8,
+            "bbox": [
+              21,
+              15,
+              23,
+              17
+            ],
+            "centroid": [
+              21.9,
+              16.0
+            ],
+            "colour": 9,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "disappear"
+          },
+          {
+            "area": 2,
+            "bbox": [
+              61,
+              63,
+              62,
+              63
+            ],
+            "centroid": [
+              61.5,
+              63.0
+            ],
+            "colour": 0,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "appear"
+          },
+          {
+            "area": 2,
+            "bbox": [
+              61,
+              63,
+              62,
+              63
+            ],
+            "centroid": [
+              61.5,
+              63.0
+            ],
+            "colour": 6,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "disappear"
+          }
+        ],
+        "global": {
+          "appearing_colours": [
+            0
+          ],
+          "changed_area": 20,
+          "dH": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "dH1": 4,
+          "disappearing_colours": [
+            6
+          ]
+        },
+        "is_pan": false,
+        "off_px": 20,
+        "on_px": 20,
+        "pan_direction": null,
+        "step": 2,
+        "visible_effect": "local",
+        "window_effective": [
+          11,
+          10
+        ]
+      },
+      "semantic_risk": {
+        "large_move_event_may_be_scene_repaint": false,
+        "rule": "move bbox area > 50% frame and changed area > 50% frame"
+      },
+      "source_kind": "real_ARCEngine_public_frames",
+      "tamper": {
+        "canonical_packet_sha256": "86c3cc2a56fe044ef9ae734760e0b93876ef2e748ea4c0ad7a60cc30b0a2bd1a",
+        "different": true,
+        "field": "events_head[0].centroid[0]",
+        "tampered_packet_sha256": "a2eed93f3c988a378d36abdb1527c6b342c2d456a96994eda1b94141d127f6f5"
+      },
+      "trajectory_source": "pinned teacher replay used only to obtain transitions",
+      "trajectory_transitions_replayed": 8
+    },
+    {
+      "case": "sp80",
+      "checks": {
+        "changed_area_exact": true,
+        "dH1_exact": true,
+        "dH_exact": true,
+        "deterministic_repeat": true,
+        "event_bboxes_in_frame": true,
+        "event_centroids_in_bbox": true,
+        "off_px_exact": true,
+        "on_px_exact": true,
+        "visible_effect_consistent": true
+      },
+      "checks_passed": true,
+      "diagnostic_crop": {
+        "bbox": [
+          28,
+          0,
+          51,
+          23
+        ],
+        "frame_fraction": 0.140625,
+        "pixels": 576,
+        "policy_leak_warning": "post-action crop cannot label the action that produced it"
+      },
+      "frame_sha256": {
+        "current_npy": "2cdf86e73e389ca7fde652caf677db6558e91631c8cd9445ad72f1aeabaa0bd2",
+        "previous_npy": "1f923e312243dde831244d1e15217cac045ae7a858edae8faed75bddea62fc8f"
+      },
+      "raw_change": {
+        "changed_area": 163,
+        "dH": [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -3,
+          0
+        ],
+        "dH1": 6,
+        "off_px": 163,
+        "on_px": 163
+      },
+      "representation_sizes": {
+        "raw_two_frame_grid": {
+          "characters": 24746,
+          "qwen2_5_tokenizer_tokens": 24619,
+          "utf8_bytes": 24746,
+          "whitespace_tokens_proxy": 8216
+        },
+        "retina_packet_only": {
+          "characters": 863,
+          "qwen2_5_tokenizer_tokens": 350,
+          "utf8_bytes": 863,
+          "whitespace_tokens_proxy": 21
+        },
+        "retina_plus_post_action_crop": {
+          "characters": 2652,
+          "qwen2_5_tokenizer_tokens": 2111,
+          "utf8_bytes": 2652,
+          "whitespace_tokens_proxy": 602
+        }
+      },
+      "representative_transition_index": 3,
+      "retina_packet": {
+        "ambient_px": 32,
+        "effective_changed": 131,
+        "events_head": [
+          {
+            "area": 80,
+            "bbox": [
+              24,
+              20,
+              43,
+              23
+            ],
+            "centroid": [
+              33.5,
+              21.5
+            ],
+            "colour": 9,
+            "delta": [
+              0.0,
+              4.0
+            ],
+            "type": "move"
+          },
+          {
+            "area": 80,
+            "bbox": [
+              24,
+              16,
+              43,
+              19
+            ],
+            "centroid": [
+              33.5,
+              17.5
+            ],
+            "colour": 12,
+            "delta": [
+              0.0,
+              -4.0
+            ],
+            "type": "move"
+          },
+          {
+            "area": 3,
+            "bbox": [
+              55,
+              0,
+              57,
+              0
+            ],
+            "centroid": [
+              56.0,
+              0.0
+            ],
+            "colour": 0,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "appear"
+          },
+          {
+            "area": 3,
+            "bbox": [
+              55,
+              0,
+              57,
+              0
+            ],
+            "centroid": [
+              56.0,
+              0.0
+            ],
+            "colour": 14,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "disappear"
+          }
+        ],
+        "global": {
+          "appearing_colours": [
+            0
+          ],
+          "changed_area": 163,
+          "dH": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -3,
+            0
+          ],
+          "dH1": 6,
+          "disappearing_colours": [
+            14
+          ]
+        },
+        "is_pan": false,
+        "off_px": 163,
+        "on_px": 163,
+        "pan_direction": null,
+        "step": 3,
+        "visible_effect": "global",
+        "window_effective": [
+          131,
+          18
+        ]
+      },
+      "semantic_risk": {
+        "large_move_event_may_be_scene_repaint": false,
+        "rule": "move bbox area > 50% frame and changed area > 50% frame"
+      },
+      "source_kind": "real_ARCEngine_public_frames",
+      "tamper": {
+        "canonical_packet_sha256": "20ba2a237ea3ce6009ddc40c925f55b693d52a00615fba158b9662eb4d06d64a",
+        "different": true,
+        "field": "events_head[0].centroid[0]",
+        "tampered_packet_sha256": "ea9b9f6cc5f8e0120e4bf6f90f5dcc8f614ef322a7e0beda16bc972ae42cedd2"
+      },
+      "trajectory_source": "pinned teacher replay used only to obtain transitions",
+      "trajectory_transitions_replayed": 8
+    },
+    {
+      "case": "ft09",
+      "checks": {
+        "changed_area_exact": true,
+        "dH1_exact": true,
+        "dH_exact": true,
+        "deterministic_repeat": true,
+        "event_bboxes_in_frame": true,
+        "event_centroids_in_bbox": true,
+        "off_px_exact": true,
+        "on_px_exact": true,
+        "visible_effect_consistent": true
+      },
+      "checks_passed": true,
+      "diagnostic_crop": {
+        "bbox": [
+          19,
+          19,
+          42,
+          42
+        ],
+        "frame_fraction": 0.140625,
+        "pixels": 576,
+        "policy_leak_warning": "post-action crop cannot label the action that produced it"
+      },
+      "frame_sha256": {
+        "current_npy": "cbcf9125e1bfd76e7c9a55f861cfb1508844b40978d30ba8a3d65df4b8e715ab",
+        "previous_npy": "a2bd02d35301385c017c34dacb92f51bc2f7a71d8599ef5598139746019f4693"
+      },
+      "raw_change": {
+        "changed_area": 3558,
+        "dH": [
+          -28,
+          0,
+          -116,
+          0,
+          2964,
+          -2160,
+          0,
+          0,
+          -556,
+          -128,
+          0,
+          -6,
+          30,
+          0,
+          0,
+          0
+        ],
+        "dH1": 5988,
+        "off_px": 3558,
+        "on_px": 3558
+      },
+      "representation_sizes": {
+        "raw_two_frame_grid": {
+          "characters": 24746,
+          "qwen2_5_tokenizer_tokens": 24619,
+          "utf8_bytes": 24746,
+          "whitespace_tokens_proxy": 8216
+        },
+        "retina_packet_only": {
+          "characters": 1112,
+          "qwen2_5_tokenizer_tokens": 489,
+          "utf8_bytes": 1112,
+          "whitespace_tokens_proxy": 21
+        },
+        "retina_plus_post_action_crop": {
+          "characters": 2902,
+          "qwen2_5_tokenizer_tokens": 2251,
+          "utf8_bytes": 2902,
+          "whitespace_tokens_proxy": 602
+        }
+      },
+      "representative_transition_index": 3,
+      "retina_packet": {
+        "ambient_px": 76,
+        "effective_changed": 3482,
+        "events_head": [
+          {
+            "area": 2756,
+            "bbox": [
+              0,
+              0,
+              63,
+              62
+            ],
+            "centroid": [
+              27.1,
+              26.9
+            ],
+            "colour": 4,
+            "delta": [
+              -11.8,
+              -6.8
+            ],
+            "type": "move"
+          },
+          {
+            "area": 2160,
+            "bbox": [
+              0,
+              0,
+              63,
+              62
+            ],
+            "centroid": [
+              27.8,
+              27.8
+            ],
+            "colour": 5,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "disappear"
+          },
+          {
+            "area": 36,
+            "bbox": [
+              44,
+              44,
+              49,
+              49
+            ],
+            "centroid": [
+              46.5,
+              46.5
+            ],
+            "colour": 4,
+            "delta": [
+              8.0,
+              4.0
+            ],
+            "type": "move"
+          },
+          {
+            "area": 36,
+            "bbox": [
+              44,
+              36,
+              49,
+              41
+            ],
+            "centroid": [
+              46.5,
+              38.5
+            ],
+            "colour": 4,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "appear"
+          },
+          {
+            "area": 36,
+            "bbox": [
+              52,
+              44,
+              57,
+              49
+            ],
+            "centroid": [
+              54.5,
+              46.5
+            ],
+            "colour": 4,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "appear"
+          },
+          {
+            "area": 36,
+            "bbox": [
+              52,
+              36,
+              57,
+              41
+            ],
+            "centroid": [
+              54.5,
+              38.5
+            ],
+            "colour": 4,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "appear"
+          }
+        ],
+        "global": {
+          "appearing_colours": [
+            4,
+            12
+          ],
+          "changed_area": 3558,
+          "dH": [
+            -28,
+            0,
+            -116,
+            0,
+            2964,
+            -2160,
+            0,
+            0,
+            -556,
+            -128,
+            0,
+            -6,
+            30,
+            0,
+            0,
+            0
+          ],
+          "dH1": 5988,
+          "disappearing_colours": [
+            0,
+            2,
+            5,
+            8,
+            9,
+            11
+          ]
+        },
+        "is_pan": false,
+        "off_px": 3558,
+        "on_px": 3558,
+        "pan_direction": null,
+        "step": 3,
+        "visible_effect": "global",
+        "window_effective": [
+          3482,
+          0
+        ]
+      },
+      "semantic_risk": {
+        "large_move_event_may_be_scene_repaint": true,
+        "rule": "move bbox area > 50% frame and changed area > 50% frame"
+      },
+      "source_kind": "real_ARCEngine_public_frames",
+      "tamper": {
+        "canonical_packet_sha256": "d5e6d6fdf0e8c4d0f69e42b5ffa87989e0ae7536485a89b709aab490a9b0b0be",
+        "different": true,
+        "field": "events_head[0].centroid[0]",
+        "tampered_packet_sha256": "c58bb807f4176a07ba1e9ca4042df23cd4b6306c3a2d04049db40606ec1972ec"
+      },
+      "trajectory_source": "pinned teacher replay used only to obtain transitions",
+      "trajectory_transitions_replayed": 4
+    },
+    {
+      "case": "ls20",
+      "checks": {
+        "changed_area_exact": true,
+        "dH1_exact": true,
+        "dH_exact": true,
+        "deterministic_repeat": true,
+        "event_bboxes_in_frame": true,
+        "event_centroids_in_bbox": true,
+        "off_px_exact": true,
+        "on_px_exact": true,
+        "visible_effect_consistent": true
+      },
+      "checks_passed": true,
+      "diagnostic_crop": {
+        "bbox": [
+          1,
+          29,
+          24,
+          52
+        ],
+        "frame_fraction": 0.140625,
+        "pixels": 576,
+        "policy_leak_warning": "post-action crop cannot label the action that produced it"
+      },
+      "frame_sha256": {
+        "current_npy": "986df2e4900708b45d168ec06a1b3c0e4db6f2e0724228ac6b84929a5411111c",
+        "previous_npy": "db5b18e58a39a8cbf19af00e5b951e71a8ec170f87f9cebe0e9029a0ce1fb455"
+      },
+      "raw_change": {
+        "changed_area": 58,
+        "dH": [
+          -3,
+          -2,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "dH1": 10,
+        "off_px": 58,
+        "on_px": 58
+      },
+      "representation_sizes": {
+        "raw_two_frame_grid": {
+          "characters": 24746,
+          "qwen2_5_tokenizer_tokens": 24619,
+          "utf8_bytes": 24746,
+          "whitespace_tokens_proxy": 8216
+        },
+        "retina_packet_only": {
+          "characters": 1055,
+          "qwen2_5_tokenizer_tokens": 439,
+          "utf8_bytes": 1055,
+          "whitespace_tokens_proxy": 21
+        },
+        "retina_plus_post_action_crop": {
+          "characters": 2844,
+          "qwen2_5_tokenizer_tokens": 2200,
+          "utf8_bytes": 2844,
+          "whitespace_tokens_proxy": 602
+        }
+      },
+      "representative_transition_index": 7,
+      "retina_packet": {
+        "ambient_px": 50,
+        "effective_changed": 33,
+        "events_head": [
+          {
+            "area": 25,
+            "bbox": [
+              19,
+              25,
+              23,
+              29
+            ],
+            "centroid": [
+              21.0,
+              27.0
+            ],
+            "colour": 3,
+            "delta": [
+              0.0,
+              -5.0
+            ],
+            "type": "move"
+          },
+          {
+            "area": 15,
+            "bbox": [
+              19,
+              32,
+              23,
+              34
+            ],
+            "centroid": [
+              21.0,
+              33.0
+            ],
+            "colour": 9,
+            "delta": [
+              0.0,
+              5.0
+            ],
+            "type": "move"
+          },
+          {
+            "area": 10,
+            "bbox": [
+              19,
+              30,
+              23,
+              31
+            ],
+            "centroid": [
+              21.0,
+              30.5
+            ],
+            "colour": 12,
+            "delta": [
+              0.0,
+              5.0
+            ],
+            "type": "move"
+          },
+          {
+            "area": 4,
+            "bbox": [
+              3,
+              57,
+              4,
+              58
+            ],
+            "centroid": [
+              3.5,
+              57.5
+            ],
+            "colour": 5,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "appear"
+          },
+          {
+            "area": 4,
+            "bbox": [
+              7,
+              57,
+              8,
+              58
+            ],
+            "centroid": [
+              7.5,
+              57.5
+            ],
+            "colour": 9,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "appear"
+          },
+          {
+            "area": 4,
+            "bbox": [
+              7,
+              57,
+              8,
+              58
+            ],
+            "centroid": [
+              7.5,
+              57.5
+            ],
+            "colour": 5,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "disappear"
+          }
+        ],
+        "global": {
+          "appearing_colours": [
+            3
+          ],
+          "changed_area": 58,
+          "dH": [
+            -3,
+            -2,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "dH1": 10,
+          "disappearing_colours": [
+            0,
+            1
+          ]
+        },
+        "is_pan": false,
+        "off_px": 58,
+        "on_px": 58,
+        "pan_direction": null,
+        "step": 3,
+        "visible_effect": "global",
+        "window_effective": [
+          33,
+          2
+        ]
+      },
+      "semantic_risk": {
+        "large_move_event_may_be_scene_repaint": false,
+        "rule": "move bbox area > 50% frame and changed area > 50% frame"
+      },
+      "source_kind": "real_ARCEngine_public_frames",
+      "tamper": {
+        "canonical_packet_sha256": "840f5560695a32cc6bcbdd2fb2c445f46dddf8ad73e622a98ec3d855e5474dd7",
+        "different": true,
+        "field": "events_head[0].centroid[0]",
+        "tampered_packet_sha256": "9acffd4ef385afae62a733b24f8393a82e81ee5094c4f0629b641602668130c3"
+      },
+      "trajectory_source": "pinned teacher replay used only to obtain transitions",
+      "trajectory_transitions_replayed": 8
+    },
+    {
+      "case": "vc33",
+      "checks": {
+        "changed_area_exact": true,
+        "dH1_exact": true,
+        "dH_exact": true,
+        "deterministic_repeat": true,
+        "event_bboxes_in_frame": true,
+        "event_centroids_in_bbox": true,
+        "off_px_exact": true,
+        "on_px_exact": true,
+        "visible_effect_consistent": true
+      },
+      "checks_passed": true,
+      "diagnostic_crop": {
+        "bbox": [
+          19,
+          19,
+          42,
+          42
+        ],
+        "frame_fraction": 0.140625,
+        "pixels": 576,
+        "policy_leak_warning": "post-action crop cannot label the action that produced it"
+      },
+      "frame_sha256": {
+        "current_npy": "ddac001442468edd92c1657da23b55b4cf0e9fe7bdca1ba1c6c31c9c63bc7d2c",
+        "previous_npy": "b7ff2110dfbcecb791ad583a9790dc608422555b6c65086613c3729cda8201ce"
+      },
+      "raw_change": {
+        "changed_area": 2743,
+        "dH": [
+          20,
+          0,
+          0,
+          -276,
+          -3,
+          224,
+          0,
+          3,
+          0,
+          32,
+          0,
+          -20,
+          0,
+          0,
+          20,
+          0
+        ],
+        "dH1": 598,
+        "off_px": 2743,
+        "on_px": 2743
+      },
+      "representation_sizes": {
+        "raw_two_frame_grid": {
+          "characters": 24746,
+          "qwen2_5_tokenizer_tokens": 24619,
+          "utf8_bytes": 24746,
+          "whitespace_tokens_proxy": 8216
+        },
+        "retina_packet_only": {
+          "characters": 1103,
+          "qwen2_5_tokenizer_tokens": 483,
+          "utf8_bytes": 1103,
+          "whitespace_tokens_proxy": 21
+        },
+        "retina_plus_post_action_crop": {
+          "characters": 2893,
+          "qwen2_5_tokenizer_tokens": 2245,
+          "utf8_bytes": 2893,
+          "whitespace_tokens_proxy": 602
+        }
+      },
+      "representative_transition_index": 2,
+      "retina_packet": {
+        "ambient_px": 471,
+        "effective_changed": 2272,
+        "events_head": [
+          {
+            "area": 1200,
+            "bbox": [
+              20,
+              1,
+              63,
+              63
+            ],
+            "centroid": [
+              52.2,
+              35.3
+            ],
+            "colour": 3,
+            "delta": [
+              36.2,
+              11.9
+            ],
+            "type": "move"
+          },
+          {
+            "area": 744,
+            "bbox": [
+              0,
+              1,
+              39,
+              19
+            ],
+            "centroid": [
+              19.9,
+              9.8
+            ],
+            "colour": 0,
+            "delta": [
+              -34.6,
+              -6.0
+            ],
+            "type": "move"
+          },
+          {
+            "area": 624,
+            "bbox": [
+              44,
+              32,
+              63,
+              63
+            ],
+            "centroid": [
+              53.3,
+              47.9
+            ],
+            "colour": 0,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "disappear"
+          },
+          {
+            "area": 224,
+            "bbox": [
+              0,
+              20,
+              55,
+              23
+            ],
+            "centroid": [
+              27.5,
+              21.5
+            ],
+            "colour": 5,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "appear"
+          },
+          {
+            "area": 160,
+            "bbox": [
+              0,
+              24,
+              11,
+              39
+            ],
+            "centroid": [
+              6.3,
+              31.5
+            ],
+            "colour": 0,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "appear"
+          },
+          {
+            "area": 144,
+            "bbox": [
+              0,
+              44,
+              7,
+              63
+            ],
+            "centroid": [
+              3.7,
+              54.4
+            ],
+            "colour": 0,
+            "delta": [
+              0.0,
+              0.0
+            ],
+            "type": "appear"
+          }
+        ],
+        "global": {
+          "appearing_colours": [
+            0,
+            5,
+            7,
+            9,
+            14
+          ],
+          "changed_area": 2743,
+          "dH": [
+            20,
+            0,
+            0,
+            -276,
+            -3,
+            224,
+            0,
+            3,
+            0,
+            32,
+            0,
+            -20,
+            0,
+            0,
+            20,
+            0
+          ],
+          "dH1": 598,
+          "disappearing_colours": [
+            3,
+            4,
+            11
+          ]
+        },
+        "is_pan": false,
+        "off_px": 2743,
+        "on_px": 2743,
+        "pan_direction": null,
+        "step": 3,
+        "visible_effect": "global",
+        "window_effective": [
+          2272,
+          16
+        ]
+      },
+      "semantic_risk": {
+        "large_move_event_may_be_scene_repaint": true,
+        "rule": "move bbox area > 50% frame and changed area > 50% frame"
+      },
+      "source_kind": "real_ARCEngine_public_frames",
+      "tamper": {
+        "canonical_packet_sha256": "bf8d8fddf905a3799909d2eddcdacf6c5de95b116703e4f33a120f254015883c",
+        "different": true,
+        "field": "events_head[0].centroid[0]",
+        "tampered_packet_sha256": "0fc613fc9ba3f2cb949c82eda65c573a93a59480c9f2d7b2eaf19c574142914e"
+      },
+      "trajectory_source": "pinned teacher replay used only to obtain transitions",
+      "trajectory_transitions_replayed": 3
+    }
+  ],
+  "interpretation": {
+    "bounded_positive": "The frozen sensor exactly preserves raw histogram deltas, changed-pixel counts, and in-frame event geometry on these saved real transitions.",
+    "important_boundary": "A global histogram alone cannot detect colour-preserving translation; the event map is the channel carrying that information.",
+    "open_question": "Whether a language or vision model converts the packet into better actions requires separately pinned model calls or closed-loop evaluation."
+  },
+  "replayed_transition_stats": [
+    {
+      "changed_area": 19,
+      "colour_preserving_change": false,
+      "dH1": 2,
+      "game": "tu93",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 0
+    },
+    {
+      "changed_area": 20,
+      "colour_preserving_change": false,
+      "dH1": 4,
+      "game": "tu93",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 1
+    },
+    {
+      "changed_area": 19,
+      "colour_preserving_change": false,
+      "dH1": 2,
+      "game": "tu93",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 2
+    },
+    {
+      "changed_area": 19,
+      "colour_preserving_change": false,
+      "dH1": 2,
+      "game": "tu93",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 3
+    },
+    {
+      "changed_area": 19,
+      "colour_preserving_change": false,
+      "dH1": 2,
+      "game": "tu93",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 4
+    },
+    {
+      "changed_area": 20,
+      "colour_preserving_change": false,
+      "dH1": 4,
+      "game": "tu93",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 5
+    },
+    {
+      "changed_area": 19,
+      "colour_preserving_change": false,
+      "dH1": 2,
+      "game": "tu93",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 6
+    },
+    {
+      "changed_area": 19,
+      "colour_preserving_change": false,
+      "dH1": 2,
+      "game": "tu93",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 7
+    },
+    {
+      "changed_area": 34,
+      "colour_preserving_change": false,
+      "dH1": 4,
+      "game": "sp80",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 0
+    },
+    {
+      "changed_area": 34,
+      "colour_preserving_change": false,
+      "dH1": 4,
+      "game": "sp80",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 1
+    },
+    {
+      "changed_area": 34,
+      "colour_preserving_change": false,
+      "dH1": 4,
+      "game": "sp80",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 2
+    },
+    {
+      "changed_area": 163,
+      "colour_preserving_change": false,
+      "dH1": 6,
+      "game": "sp80",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 3
+    },
+    {
+      "changed_area": 162,
+      "colour_preserving_change": false,
+      "dH1": 4,
+      "game": "sp80",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 4
+    },
+    {
+      "changed_area": 162,
+      "colour_preserving_change": false,
+      "dH1": 4,
+      "game": "sp80",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 5
+    },
+    {
+      "changed_area": 162,
+      "colour_preserving_change": false,
+      "dH1": 4,
+      "game": "sp80",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 6
+    },
+    {
+      "changed_area": 162,
+      "colour_preserving_change": false,
+      "dH1": 4,
+      "game": "sp80",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 7
+    },
+    {
+      "changed_area": 38,
+      "colour_preserving_change": false,
+      "dH1": 76,
+      "game": "ft09",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 0
+    },
+    {
+      "changed_area": 38,
+      "colour_preserving_change": false,
+      "dH1": 76,
+      "game": "ft09",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 1
+    },
+    {
+      "changed_area": 38,
+      "colour_preserving_change": false,
+      "dH1": 76,
+      "game": "ft09",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 2
+    },
+    {
+      "changed_area": 3558,
+      "colour_preserving_change": false,
+      "dH1": 5988,
+      "game": "ft09",
+      "large_repaint_candidate": true,
+      "no_change": false,
+      "transition_index": 3
+    },
+    {
+      "changed_area": 52,
+      "colour_preserving_change": false,
+      "dH1": 4,
+      "game": "ls20",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 0
+    },
+    {
+      "changed_area": 52,
+      "colour_preserving_change": false,
+      "dH1": 4,
+      "game": "ls20",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 1
+    },
+    {
+      "changed_area": 52,
+      "colour_preserving_change": false,
+      "dH1": 4,
+      "game": "ls20",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 2
+    },
+    {
+      "changed_area": 52,
+      "colour_preserving_change": false,
+      "dH1": 4,
+      "game": "ls20",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 3
+    },
+    {
+      "changed_area": 52,
+      "colour_preserving_change": false,
+      "dH1": 4,
+      "game": "ls20",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 4
+    },
+    {
+      "changed_area": 52,
+      "colour_preserving_change": false,
+      "dH1": 4,
+      "game": "ls20",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 5
+    },
+    {
+      "changed_area": 52,
+      "colour_preserving_change": false,
+      "dH1": 4,
+      "game": "ls20",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 6
+    },
+    {
+      "changed_area": 58,
+      "colour_preserving_change": false,
+      "dH1": 10,
+      "game": "ls20",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 7
+    },
+    {
+      "changed_area": 265,
+      "colour_preserving_change": false,
+      "dH1": 42,
+      "game": "vc33",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 0
+    },
+    {
+      "changed_area": 266,
+      "colour_preserving_change": false,
+      "dH1": 44,
+      "game": "vc33",
+      "large_repaint_candidate": false,
+      "no_change": false,
+      "transition_index": 1
+    },
+    {
+      "changed_area": 2743,
+      "colour_preserving_change": false,
+      "dH1": 598,
+      "game": "vc33",
+      "large_repaint_candidate": true,
+      "no_change": false,
+      "transition_index": 2
+    }
+  ],
+  "schema": "independent-retina-vision-audit-v1",
+  "scope": {
+    "games": [
+      "tu93",
+      "sp80",
+      "ft09",
+      "ls20",
+      "vc33"
+    ],
+    "not_claimed": [
+      "student policy improvement",
+      "closed-loop game capability",
+      "semantic understanding by any LLM or VLM",
+      "equivalence to a raw-image vision model"
+    ],
+    "real_transitions_replayed_to_select_cases": 31,
+    "representative_transitions_core_checked_and_saved": 5
+  },
+  "sources": {
+    "active_sensor_read_only": {
+      "bytes": 9455,
+      "path": "[local source path omitted]",
+      "sha256": "53f6cb4ce910bc8f87b27a6a59dc8843014ed22c53c5d8a4c7e422208cb38468"
+    },
+    "environment_sources": {
+      "ft09": {
+        "bytes": 64236,
+        "path": "[local source path omitted]",
+        "sha256": "0d8bbf2573e8f9837c649a1ffda2e7bde3734d26c3cb0fc4bbfd772d7f87a6bf"
+      },
+      "ls20": {
+        "bytes": 104880,
+        "path": "[local source path omitted]",
+        "sha256": "9607627b3d85bdb21ff28b40fefaa6a873691175981c6351b7e5a6637416f9d5"
+      },
+      "sp80": {
+        "bytes": 39981,
+        "path": "[local source path omitted]",
+        "sha256": "589a99af30f07879d044c56c88a2e9882fe04e6f13e9f943f5195c81d3b85a1f"
+      },
+      "tu93": {
+        "bytes": 74044,
+        "path": "[local source path omitted]",
+        "sha256": "0768757bb4b39e5a6f8142e32e0f6546a619cee02707f1f52f806b7007f07e57"
+      },
+      "vc33": {
+        "bytes": 74307,
+        "path": "[local source path omitted]",
+        "sha256": "5430563c386ca51ff4c9a84b032579245a0613cb98c477c6eaeaa1086c80a2d5"
+      }
+    },
+    "frozen_sensor": {
+      "bytes": 9455,
+      "path": "[local source path omitted]",
+      "sha256": "53f6cb4ce910bc8f87b27a6a59dc8843014ed22c53c5d8a4c7e422208cb38468"
+    },
+    "qwen_tokenizer": {
+      "bytes": 7031673,
+      "path": "[local source path omitted]",
+      "sha256": "a8506e7111b80c6d8635951a02eab0f4e1a8e4e5772da83846579e97b16f61bf"
+    },
+    "teacher_sweep": {
+      "bytes": 49546,
+      "path": "[local source path omitted]",
+      "sha256": "3a44e2bc89ec35677c5e2ae7b3c477ce4dd949ab9e9c0b155f20011729e943f5"
+    }
+  },
+  "summary": {
+    "all_core_checks_passed": true,
+    "build_seconds": 5.838353,
+    "checks_passed": 45,
+    "checks_total": 45,
+    "mean_milliseconds_per_observe": 8.20199,
+    "replayed_colour_preserving_changes_invisible_to_histogram": 0,
+    "replayed_large_repaint_candidates": 2,
+    "replayed_no_change_transitions": 0,
+    "representatives_flagged_as_possible_scene_repaint": 2,
+    "sensor_benchmark_calls": 500,
+    "sensor_benchmark_seconds": 4.100995,
+    "tamper_variants_created": 5
+  }
+}

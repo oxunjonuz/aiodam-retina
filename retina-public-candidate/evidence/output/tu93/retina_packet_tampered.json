@@ -1,0 +1,158 @@
+{
+  "ambient_px": 9,
+  "effective_changed": 11,
+  "events_head": [
+    {
+      "area": 9,
+      "bbox": [
+        21,
+        15,
+        23,
+        17
+      ],
+      "centroid": [
+        27.0,
+        16.0
+      ],
+      "colour": 0,
+      "delta": [
+        0.0,
+        0.0
+      ],
+      "type": "appear"
+    },
+    {
+      "area": 9,
+      "bbox": [
+        21,
+        21,
+        23,
+        23
+      ],
+      "centroid": [
+        22.0,
+        22.0
+      ],
+      "colour": 0,
+      "delta": [
+        0.0,
+        0.0
+      ],
+      "type": "disappear"
+    },
+    {
+      "area": 8,
+      "bbox": [
+        21,
+        21,
+        23,
+        23
+      ],
+      "centroid": [
+        22.0,
+        21.9
+      ],
+      "colour": 9,
+      "delta": [
+        0.0,
+        0.0
+      ],
+      "type": "appear"
+    },
+    {
+      "area": 8,
+      "bbox": [
+        21,
+        15,
+        23,
+        17
+      ],
+      "centroid": [
+        21.9,
+        16.0
+      ],
+      "colour": 9,
+      "delta": [
+        0.0,
+        0.0
+      ],
+      "type": "disappear"
+    },
+    {
+      "area": 2,
+      "bbox": [
+        61,
+        63,
+        62,
+        63
+      ],
+      "centroid": [
+        61.5,
+        63.0
+      ],
+      "colour": 0,
+      "delta": [
+        0.0,
+        0.0
+      ],
+      "type": "appear"
+    },
+    {
+      "area": 2,
+      "bbox": [
+        61,
+        63,
+        62,
+        63
+      ],
+      "centroid": [
+        61.5,
+        63.0
+      ],
+      "colour": 6,
+      "delta": [
+        0.0,
+        0.0
+      ],
+      "type": "disappear"
+    }
+  ],
+  "global": {
+    "appearing_colours": [
+      0
+    ],
+    "changed_area": 20,
+    "dH": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "dH1": 4,
+    "disappearing_colours": [
+      6
+    ]
+  },
+  "is_pan": false,
+  "off_px": 20,
+  "on_px": 20,
+  "pan_direction": null,
+  "step": 2,
+  "visible_effect": "local",
+  "window_effective": [
+    11,
+    10
+  ]
+}

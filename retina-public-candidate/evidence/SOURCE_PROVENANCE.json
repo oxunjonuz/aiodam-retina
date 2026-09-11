@@ -1,0 +1,352 @@
+[
+  {
+    "source_sha256": "53f6cb4ce910bc8f87b27a6a59dc8843014ed22c53c5d8a4c7e422208cb38468",
+    "target": "retina/temporal.py",
+    "target_sha256": "53f6cb4ce910bc8f87b27a6a59dc8843014ed22c53c5d8a4c7e422208cb38468",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "retina_sensor.py"
+  },
+  {
+    "source_sha256": "9fa1511551970e8bcc51eac5748eb6ecc4b8e0a3bd1eecfedce809457dfc2cb3",
+    "target": "retina/entities.py",
+    "target_sha256": "06ec7ca586e91fdff280b039a70ceea8aaa8a3dd408f162f320c5cb7f104bc3b",
+    "mode": "verbatim_function_extraction_with_portable_header",
+    "details": [
+      {
+        "name": "entities",
+        "start": 112,
+        "end": 152
+      },
+      {
+        "name": "entity_line",
+        "start": 155,
+        "end": 171
+      },
+      {
+        "name": "verify_entities",
+        "start": 470,
+        "end": 474
+      }
+    ],
+    "source_basename": "blind25_mem_semantic.py"
+  },
+  {
+    "source_sha256": "40495877f632fa0f41a16299a8472bb2045260871b38c49d71f1001face61a57",
+    "target": "retina/spatial_legacy.py",
+    "target_sha256": "b5747aec81613e2894216389fdab7675e1e4daa580850a1667df32181bed461e",
+    "mode": "verbatim_function_extraction_with_portable_header",
+    "details": [
+      {
+        "name": "color_histogram",
+        "start": 61,
+        "end": 63
+      },
+      {
+        "name": "major_components",
+        "start": 66,
+        "end": 101
+      },
+      {
+        "name": "center_patch",
+        "start": 104,
+        "end": 114
+      }
+    ],
+    "source_basename": "extract_v3.py"
+  },
+  {
+    "source_sha256": "fb922117cce149426c96e63542c86077302f8f8188c64db714e1f7154f66432c",
+    "target": "retina/event_guard.py",
+    "target_sha256": "ee7e2263e5df65c9b6c570cdf1e36891528b49fcce31d9128daa1f26404600b2",
+    "mode": "verbatim_function_extraction_with_portable_header",
+    "details": [
+      {
+        "name": "_guard_events",
+        "start": 225,
+        "end": 247
+      }
+    ],
+    "source_basename": "local_retina.py"
+  },
+  {
+    "source_sha256": "4c80c08486200ccff8dbd587ac62293bd1422803a304df42999bdfd7c5f1d7a5",
+    "target": "retina/retina_packet.py",
+    "target_sha256": "f727c64440741c70cbaddf55b10b6ed4e8e6074d79bc7ae50511ecbb859427cb",
+    "mode": "module_docstring_replaced; package_imports_adjusted_or_SIDE_CHANNELS_list_index_fix",
+    "details": null,
+    "source_basename": "retina_packet.py"
+  },
+  {
+    "source_sha256": "342b1b961515ae9986f6b2a41298dcce2eac9e72c584ca8e3259078d530fa036",
+    "target": "retina/qwen_serializer.py",
+    "target_sha256": "972c9eff142846bdcf93cca0cf853088bf23cd95af0714e24c7a01be7b743672",
+    "mode": "module_docstring_replaced; package_imports_adjusted_or_SIDE_CHANNELS_list_index_fix",
+    "details": null,
+    "source_basename": "qwen_serializer.py"
+  },
+  {
+    "source_sha256": "eb10578f91e38acab19f7a7cd79a61253a0386c58ee7acd830a58a5a10bfa04d",
+    "target": "tools/verify_historical_audit.py",
+    "target_sha256": "eb10578f91e38acab19f7a7cd79a61253a0386c58ee7acd830a58a5a10bfa04d",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "verify_audit.py"
+  },
+  {
+    "source_sha256": "3d6d900905fa9249ea4b7cea66a01ff585f556e8f9bad4a4241bdc763777886f",
+    "target": "evidence/output/tu93/previous.npy",
+    "target_sha256": "3d6d900905fa9249ea4b7cea66a01ff585f556e8f9bad4a4241bdc763777886f",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "previous.npy"
+  },
+  {
+    "source_sha256": "4e3c005e443aa4563c1f00eec0c605d7c93bb357d07786aff34464c4024ce781",
+    "target": "evidence/output/tu93/current.npy",
+    "target_sha256": "4e3c005e443aa4563c1f00eec0c605d7c93bb357d07786aff34464c4024ce781",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "current.npy"
+  },
+  {
+    "source_sha256": "2692a657bd6344e017a0ba1f31503225a9c713b539f67cbac77f0921e5af359d",
+    "target": "evidence/output/tu93/retina_packet.json",
+    "target_sha256": "2692a657bd6344e017a0ba1f31503225a9c713b539f67cbac77f0921e5af359d",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "retina_packet.json"
+  },
+  {
+    "source_sha256": "b6299fc311a94b1fc7ba9dc64401c9579d3246c2f7177bbd8b5b957d43087f1b",
+    "target": "evidence/output/tu93/retina_packet_tampered.json",
+    "target_sha256": "b6299fc311a94b1fc7ba9dc64401c9579d3246c2f7177bbd8b5b957d43087f1b",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "retina_packet_tampered.json"
+  },
+  {
+    "source_sha256": "3ccb61639f6509b684f9718b781337c25b50e20db2fcb1b86dcd818ed57d3796",
+    "target": "evidence/output/tu93/prompts.json",
+    "target_sha256": "3ccb61639f6509b684f9718b781337c25b50e20db2fcb1b86dcd818ed57d3796",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "prompts.json"
+  },
+  {
+    "source_sha256": "5cc5e998303575fcb4ffd412a34beae3289bb4eeb300dfe26b21acdf49589587",
+    "target": "evidence/output/tu93/comparison_previous_current_diff.png",
+    "target_sha256": "5cc5e998303575fcb4ffd412a34beae3289bb4eeb300dfe26b21acdf49589587",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "comparison_previous_current_diff.png"
+  },
+  {
+    "source_sha256": "1f923e312243dde831244d1e15217cac045ae7a858edae8faed75bddea62fc8f",
+    "target": "evidence/output/sp80/previous.npy",
+    "target_sha256": "1f923e312243dde831244d1e15217cac045ae7a858edae8faed75bddea62fc8f",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "previous.npy"
+  },
+  {
+    "source_sha256": "2cdf86e73e389ca7fde652caf677db6558e91631c8cd9445ad72f1aeabaa0bd2",
+    "target": "evidence/output/sp80/current.npy",
+    "target_sha256": "2cdf86e73e389ca7fde652caf677db6558e91631c8cd9445ad72f1aeabaa0bd2",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "current.npy"
+  },
+  {
+    "source_sha256": "608f922070a1685c4f51891e2321d8a7769ee8b10bea83c96308bba0866bd39a",
+    "target": "evidence/output/sp80/retina_packet.json",
+    "target_sha256": "608f922070a1685c4f51891e2321d8a7769ee8b10bea83c96308bba0866bd39a",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "retina_packet.json"
+  },
+  {
+    "source_sha256": "689849f3cbdd2a4764fa12412ea85b0b08b537b1000e092af3dd0e164b1cf4c9",
+    "target": "evidence/output/sp80/retina_packet_tampered.json",
+    "target_sha256": "689849f3cbdd2a4764fa12412ea85b0b08b537b1000e092af3dd0e164b1cf4c9",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "retina_packet_tampered.json"
+  },
+  {
+    "source_sha256": "19c887c8aae48ef4566abf2182c3e2b4a3d48232e866da6992466879b199f98f",
+    "target": "evidence/output/sp80/prompts.json",
+    "target_sha256": "19c887c8aae48ef4566abf2182c3e2b4a3d48232e866da6992466879b199f98f",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "prompts.json"
+  },
+  {
+    "source_sha256": "c520f3a7207e310af77619a6f76d2e80e976cdc90048784fdb8fee771003d510",
+    "target": "evidence/output/sp80/comparison_previous_current_diff.png",
+    "target_sha256": "c520f3a7207e310af77619a6f76d2e80e976cdc90048784fdb8fee771003d510",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "comparison_previous_current_diff.png"
+  },
+  {
+    "source_sha256": "a2bd02d35301385c017c34dacb92f51bc2f7a71d8599ef5598139746019f4693",
+    "target": "evidence/output/ft09/previous.npy",
+    "target_sha256": "a2bd02d35301385c017c34dacb92f51bc2f7a71d8599ef5598139746019f4693",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "previous.npy"
+  },
+  {
+    "source_sha256": "cbcf9125e1bfd76e7c9a55f861cfb1508844b40978d30ba8a3d65df4b8e715ab",
+    "target": "evidence/output/ft09/current.npy",
+    "target_sha256": "cbcf9125e1bfd76e7c9a55f861cfb1508844b40978d30ba8a3d65df4b8e715ab",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "current.npy"
+  },
+  {
+    "source_sha256": "a2bf842632f590d3532686c0a12e2cdee6e4c315afd6ba6a96bf07f34f693002",
+    "target": "evidence/output/ft09/retina_packet.json",
+    "target_sha256": "a2bf842632f590d3532686c0a12e2cdee6e4c315afd6ba6a96bf07f34f693002",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "retina_packet.json"
+  },
+  {
+    "source_sha256": "d0873b03116622f1049e4291245622a6d122225a79c8637d33848195e7a5eded",
+    "target": "evidence/output/ft09/retina_packet_tampered.json",
+    "target_sha256": "d0873b03116622f1049e4291245622a6d122225a79c8637d33848195e7a5eded",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "retina_packet_tampered.json"
+  },
+  {
+    "source_sha256": "4cb4128606b6631a2a817c20454ac70e60f9a987e1f71792a11abe1cf3932a0c",
+    "target": "evidence/output/ft09/prompts.json",
+    "target_sha256": "4cb4128606b6631a2a817c20454ac70e60f9a987e1f71792a11abe1cf3932a0c",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "prompts.json"
+  },
+  {
+    "source_sha256": "8a318cfa54d3c41171c18a539137ef008a8a7c205357276730dda8758d0e34fc",
+    "target": "evidence/output/ft09/comparison_previous_current_diff.png",
+    "target_sha256": "8a318cfa54d3c41171c18a539137ef008a8a7c205357276730dda8758d0e34fc",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "comparison_previous_current_diff.png"
+  },
+  {
+    "source_sha256": "db5b18e58a39a8cbf19af00e5b951e71a8ec170f87f9cebe0e9029a0ce1fb455",
+    "target": "evidence/output/ls20/previous.npy",
+    "target_sha256": "db5b18e58a39a8cbf19af00e5b951e71a8ec170f87f9cebe0e9029a0ce1fb455",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "previous.npy"
+  },
+  {
+    "source_sha256": "986df2e4900708b45d168ec06a1b3c0e4db6f2e0724228ac6b84929a5411111c",
+    "target": "evidence/output/ls20/current.npy",
+    "target_sha256": "986df2e4900708b45d168ec06a1b3c0e4db6f2e0724228ac6b84929a5411111c",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "current.npy"
+  },
+  {
+    "source_sha256": "5d20d040b679c66505f805b5c5b42c1752e88e6d9eacf9023ff220fb9a5a97ca",
+    "target": "evidence/output/ls20/retina_packet.json",
+    "target_sha256": "5d20d040b679c66505f805b5c5b42c1752e88e6d9eacf9023ff220fb9a5a97ca",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "retina_packet.json"
+  },
+  {
+    "source_sha256": "3d4ae5a70379cad6ce6f5d3b8b0c23880c7d6e5ca3bc7ee98430f16b7815f177",
+    "target": "evidence/output/ls20/retina_packet_tampered.json",
+    "target_sha256": "3d4ae5a70379cad6ce6f5d3b8b0c23880c7d6e5ca3bc7ee98430f16b7815f177",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "retina_packet_tampered.json"
+  },
+  {
+    "source_sha256": "1e4a6c58acb152321f47807fedb75ed8b4fad46c2169eb0abf60712e6e9c4b37",
+    "target": "evidence/output/ls20/prompts.json",
+    "target_sha256": "1e4a6c58acb152321f47807fedb75ed8b4fad46c2169eb0abf60712e6e9c4b37",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "prompts.json"
+  },
+  {
+    "source_sha256": "fd902214be41fff58a41e3741c5135e1ffa7f4fc0f7ae37716104c075496432e",
+    "target": "evidence/output/ls20/comparison_previous_current_diff.png",
+    "target_sha256": "fd902214be41fff58a41e3741c5135e1ffa7f4fc0f7ae37716104c075496432e",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "comparison_previous_current_diff.png"
+  },
+  {
+    "source_sha256": "b7ff2110dfbcecb791ad583a9790dc608422555b6c65086613c3729cda8201ce",
+    "target": "evidence/output/vc33/previous.npy",
+    "target_sha256": "b7ff2110dfbcecb791ad583a9790dc608422555b6c65086613c3729cda8201ce",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "previous.npy"
+  },
+  {
+    "source_sha256": "ddac001442468edd92c1657da23b55b4cf0e9fe7bdca1ba1c6c31c9c63bc7d2c",
+    "target": "evidence/output/vc33/current.npy",
+    "target_sha256": "ddac001442468edd92c1657da23b55b4cf0e9fe7bdca1ba1c6c31c9c63bc7d2c",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "current.npy"
+  },
+  {
+    "source_sha256": "b1bef3b343110c6f9f20e9bb22e2a461db6c18f65ab2693178e1744df95d6f9f",
+    "target": "evidence/output/vc33/retina_packet.json",
+    "target_sha256": "b1bef3b343110c6f9f20e9bb22e2a461db6c18f65ab2693178e1744df95d6f9f",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "retina_packet.json"
+  },
+  {
+    "source_sha256": "4d246c2a4fa9e510907b8749b82748e85209072d4c52069357ef0e8b08f0539d",
+    "target": "evidence/output/vc33/retina_packet_tampered.json",
+    "target_sha256": "4d246c2a4fa9e510907b8749b82748e85209072d4c52069357ef0e8b08f0539d",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "retina_packet_tampered.json"
+  },
+  {
+    "source_sha256": "d6bc411c6b3c5c4831da4e7e99ffe0142475ef3104135e07061452373b7dea35",
+    "target": "evidence/output/vc33/prompts.json",
+    "target_sha256": "d6bc411c6b3c5c4831da4e7e99ffe0142475ef3104135e07061452373b7dea35",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "prompts.json"
+  },
+  {
+    "source_sha256": "48c6d24e8323ca598b1816420f72d2f86826a04b0ecc024e9e7de179e0f28e35",
+    "target": "evidence/output/vc33/comparison_previous_current_diff.png",
+    "target_sha256": "48c6d24e8323ca598b1816420f72d2f86826a04b0ecc024e9e7de179e0f28e35",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "comparison_previous_current_diff.png"
+  },
+  {
+    "source_sha256": "eeb40354294229445c361c5f63d43df4f0a86123660120ce87e304fa57a4c288",
+    "target": "evidence/output/audit_report.json",
+    "target_sha256": "6a80539558a9921a3a1230294750d916f259a53f4bb388132aedf2b64c29cc12",
+    "mode": "path_fields_redacted_and_action_label_metadata_omitted; measurements_unchanged",
+    "details": null,
+    "source_basename": "audit_report.json"
+  },
+  {
+    "source_sha256": "ed491ce65d0f19523a2e09f1d8f34172e90afa2e54d7f05e00da0c313122a23f",
+    "target": "evidence/historical_verification.json",
+    "target_sha256": "ed491ce65d0f19523a2e09f1d8f34172e90afa2e54d7f05e00da0c313122a23f",
+    "mode": "byte_identical",
+    "details": null,
+    "source_basename": "verification_result.json"
+  }
+]

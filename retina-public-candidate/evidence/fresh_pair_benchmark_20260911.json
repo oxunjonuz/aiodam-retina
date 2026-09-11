@@ -1,0 +1,6 @@
+{
+  "scope": "frozen temporal observe only; not LLM response or full session",
+  "calls": 500,
+  "elapsed_seconds": 2.907665249891579,
+  "mean_milliseconds": 5.815330499783158
+}

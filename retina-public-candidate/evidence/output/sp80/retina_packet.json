@@ -1,0 +1,120 @@
+{
+  "ambient_px": 32,
+  "effective_changed": 131,
+  "events_head": [
+    {
+      "area": 80,
+      "bbox": [
+        24,
+        20,
+        43,
+        23
+      ],
+      "centroid": [
+        33.5,
+        21.5
+      ],
+      "colour": 9,
+      "delta": [
+        0.0,
+        4.0
+      ],
+      "type": "move"
+    },
+    {
+      "area": 80,
+      "bbox": [
+        24,
+        16,
+        43,
+        19
+      ],
+      "centroid": [
+        33.5,
+        17.5
+      ],
+      "colour": 12,
+      "delta": [
+        0.0,
+        -4.0
+      ],
+      "type": "move"
+    },
+    {
+      "area": 3,
+      "bbox": [
+        55,
+        0,
+        57,
+        0
+      ],
+      "centroid": [
+        56.0,
+        0.0
+      ],
+      "colour": 0,
+      "delta": [
+        0.0,
+        0.0
+      ],
+      "type": "appear"
+    },
+    {
+      "area": 3,
+      "bbox": [
+        55,
+        0,
+        57,
+        0
+      ],
+      "centroid": [
+        56.0,
+        0.0
+      ],
+      "colour": 14,
+      "delta": [
+        0.0,
+        0.0
+      ],
+      "type": "disappear"
+    }
+  ],
+  "global": {
+    "appearing_colours": [
+      0
+    ],
+    "changed_area": 163,
+    "dH": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -3,
+      0
+    ],
+    "dH1": 6,
+    "disappearing_colours": [
+      14
+    ]
+  },
+  "is_pan": false,
+  "off_px": 163,
+  "on_px": 163,
+  "pan_direction": null,
+  "step": 3,
+  "visible_effect": "global",
+  "window_effective": [
+    131,
+    18
+  ]
+}
