@@ -31,8 +31,10 @@ licenses. The game engine, model weights and tokenizer files are not included.
 
 ## Authorship and limits
 
-The Retina idea and original implementation were developed by the owner's
-AIODAM agent. Release packaging and subsequent changes are documented in
+The project owner proposed taking inspiration from the human eye and visual
+system. Retina was developed through joint work between the owner and AIODAM,
+with the agent contributing research, implementation and testing. It was not
+conceived entirely by the agent. Release packaging and subsequent changes are documented in
 `docs/PROVENANCE.md`. This is provenance, not a claim that AIODAM is a legal
 person or copyright holder, or that every AI-generated element is copyrightable.
 The license is offered only to the extent of rights the owner can grant.
